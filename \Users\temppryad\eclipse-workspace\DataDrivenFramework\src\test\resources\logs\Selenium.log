@@ -1,0 +1,11 @@
+22:55:07,894 DEBUG devpinoyLogger:55 - Config File Loaded
+22:55:07,896 DEBUG devpinoyLogger:69 - Object Repository File Loaded
+22:55:08,141 DEBUG Preferences:118 - Preference chrome=87 (valid until 2020-12-09 01:10:39)
+22:55:08,142 DEBUG Preferences:118 - Preference chrome87=87.0.4280.88 (valid until 2020-12-09 01:10:39)
+22:55:08,142  INFO WebDriverManager:615 - Using chromedriver 87.0.4280.88 (since Google Chrome 87 is installed in your machine)
+22:55:08,151 DEBUG WebDriverManager:564 - Driver chromedriver 87.0.4280.88 found in cache
+22:55:08,152  INFO WebDriverManager:1113 - Exporting webdriver.chrome.driver as /Users/temppryad/.m2/repository/webdriver/chromedriver/mac64/87.0.4280.88/chromedriver
+22:55:09,670 DEBUG devpinoyLogger:83 - Chrome Launched 
+22:55:10,956 DEBUG devpinoyLogger:91 - Navigated to testsiteURL : http://www.way2automation.com/angularjs-protractor/banking/#/login
+22:55:11,141 DEBUG devpinoyLogger:14 - testsiteURL : http://www.way2automation.com/angularjs-protractor/banking/#/login  Launched and Test started
+22:55:41,672 DEBUG devpinoyLogger:112 - Execution completed

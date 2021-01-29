@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Data Driven Basics" duration-ms="12730" started-at="2021-01-29T15:40:36 CET" finished-at="2021-01-29T15:40:49 CET">
+    <groups>
+    </groups>
+    <test name="Bank Manager Login Test" duration-ms="5280" started-at="2021-01-29T15:40:36 CET" finished-at="2021-01-29T15:40:41 CET">
+      <class name="hm.com.testcases.BankMgrLgnTest">
+        <test-method status="PASS" signature="bankMgrLgnTest()[pri:0, instance:hm.com.testcases.BankMgrLgnTest@65fb9ffc]" name="bankMgrLgnTest" duration-ms="5235" started-at="2021-01-29T15:40:36 CET" finished-at="2021-01-29T15:40:41 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bankMgrLgnTest -->
+      </class> <!-- hm.com.testcases.BankMgrLgnTest -->
+    </test> <!-- Bank Manager Login Test -->
+    <test name="Add Customer Test" duration-ms="7418" started-at="2021-01-29T15:40:41 CET" finished-at="2021-01-29T15:40:49 CET">
+      <class name="hm.com.testcases.AddCustTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:hm.com.testcases.AddCustTest@34e9fd99]" name="setUp" is-config="true" duration-ms="9033" started-at="2021-01-29T15:40:27 CET" finished-at="2021-01-29T15:40:36 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="addCust(java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:hm.com.testcases.AddCustTest@34e9fd99]" name="addCust" duration-ms="7379" started-at="2021-01-29T15:40:41 CET" data-provider="getData" finished-at="2021-01-29T15:40:49 CET">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Yadav]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Prakash]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[16440.0]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Customer added successfully]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addCust -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:hm.com.testcases.AddCustTest@34e9fd99]" name="tearDown" is-config="true" duration-ms="156" started-at="2021-01-29T15:40:49 CET" finished-at="2021-01-29T15:40:49 CET">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- hm.com.testcases.AddCustTest -->
+    </test> <!-- Add Customer Test -->
+  </suite> <!-- Data Driven Basics -->
+</testng-results>
